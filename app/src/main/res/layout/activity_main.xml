@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz1"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+
+            <TextView
+                android:id="@+id/question_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="1dp"
+                android:text="Question:"
+                android:textColor="@color/colorAccent"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="365dp"
+        android:layout_height="32dp">
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:padding="1dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:padding="12dp"
+        android:text="who is the prime minister of india?"
+        android:background="#FCE4EC"
+        android:textColor="#B71C1C"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/choice3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#512DA8"
+            android:fontFamily="serif"
+            android:text="Choice 3"
+            android:textColor="#FFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/choice4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#512DA8"
+            android:fontFamily="serif"
+            android:text="Choice 4"
+            android:textColor="#FFFF"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/choice1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#512DA8"
+            android:fontFamily="serif"
+            android:text="Choice 1"
+            android:textColor="#FFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/choice2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#512DA8"
+            android:fontFamily="serif"
+            android:text="Choice 2"
+            android:textColor="#FFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:contentDescription="@null"
+            android:id="@+id/previous_question"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:background="#FFFF"
+            android:onClick="previous_question"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back1" />
+
+
+        <ImageButton
+            android:contentDescription="@null"
+            android:id="@+id/next_question"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:background="#FFFF"
+            android:onClick="next_question"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/forw" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="title_activity_login1">Sign in</string>
+
+    <string name="XYZ">XYZ</string>
+    <string name="Question">Question number: 1</string>
+    <string name="score_result">0</string>
+    <string name="Enter_Username"> Enter Username</string>
+    <string name="score">Score</string>
+
+</resources>
