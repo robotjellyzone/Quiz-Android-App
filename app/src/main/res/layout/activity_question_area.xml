@@ -52,7 +52,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
-        android:src="@drawable/emoji2" />
+        app:srcCompat="@drawable/emoji2" />
 
 </RelativeLayout>
 

@@ -1,6 +1,6 @@
 package com.example.android.quizapp;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
 
 public class QuestionArea {
@@ -50,4 +50,5 @@ public class QuestionArea {
         String answer = answers[a];
         return answer;
     }
+
 }

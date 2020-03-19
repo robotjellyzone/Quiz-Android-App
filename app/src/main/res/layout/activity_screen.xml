@@ -15,7 +15,7 @@ tools:context=".ScreenActivity" >
         android:layout_alignParentTop="true"
         android:background="#FFEA00"
         android:scaleType="fitStart"
-        android:src="@drawable/quiz" />
+        app:srcCompat="@drawable/quiz" />
 
     <ImageView
         android:layout_width="171dp"
@@ -25,7 +25,7 @@ tools:context=".ScreenActivity" >
         android:layout_marginBottom="46dp"
         android:layout_marginEnd="33dp"
         android:scaleType="fitEnd"
-        android:src="@drawable/zoozoo" />
+        app:srcCompat="@drawable/zoozoo" />
 
 
 </RelativeLayout>

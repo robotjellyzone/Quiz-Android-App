@@ -3,8 +3,10 @@ package com.example.android.quizapp;
 
         import android.content.Intent;
         import android.os.Handler;
-        import android.support.v7.app.AppCompatActivity;
+
+
         import android.os.Bundle;
+        import androidx.appcompat.app.AppCompatActivity;
 
 public class ScreenActivity extends AppCompatActivity {
     private int Screen = 2000;
